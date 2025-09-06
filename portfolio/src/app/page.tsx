@@ -152,7 +152,7 @@ export default function Home() {
     <motion.div>
       <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">{i18n[lang].projects}</h2>
 
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-3 px-6 md:px-20">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 px-6 md:px-20">
 
         {/* Project Card 1 */}
         <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform transition-transform duration-300 hover:-translate-y-2 border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
