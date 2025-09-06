@@ -41,10 +41,10 @@ export default function Navbar() {
 
         <div className="hidden md:flex items-center gap-6">
           <Link className="hover:text-blue-500" href="/">{i18n[lang].home}</Link>
-          <Link className="hover:text-blue-500" href="/about">{i18n[lang].about}</Link>
-          <Link className="hover:text-blue-500" href="/work_experience">{i18n[lang].work_experience}</Link>
-          <Link className="hover:text-blue-500" href="/projects">{i18n[lang].projects}</Link>
-          <Link className="hover:text-blue-500" href="/contact">{i18n[lang].contact}</Link>
+          <Link className="hover:text-blue-500" href="/#about">{i18n[lang].about}</Link>
+          <Link className="hover:text-blue-500" href="/#work_experience">{i18n[lang].work_experience}</Link>
+          <Link className="hover:text-blue-500" href="/#projects">{i18n[lang].projects}</Link>
+          <Link className="hover:text-blue-500" href="/#contact">{i18n[lang].contact}</Link>
           <button
             onClick={toggleLang}
             className="ml-2 px-2 py-1 border rounded text-sm"
@@ -82,10 +82,10 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden mt-2 px-2 pb-3 space-y-1">
           <Link className="block px-2 py-2 rounded hover:bg-gray-100" href="/">{i18n[lang].home}</Link>
-          <Link className="block px-2 py-2 rounded hover:bg-gray-100" href="/about">{i18n[lang].about}</Link>
-          <Link className="block px-2 py-2 rounded hover:bg-gray-100" href="/work_experience">{i18n[lang].work_experience}</Link>
-          <Link className="block px-2 py-2 rounded hover:bg-gray-100" href="/projects">{i18n[lang].projects}</Link>
-          <Link className="block px-2 py-2 rounded hover:bg-gray-100" href="/contact">{i18n[lang].contact}</Link>
+          <Link className="block px-2 py-2 rounded hover:bg-gray-100" href="/#about">{i18n[lang].about}</Link>
+          <Link className="block px-2 py-2 rounded hover:bg-gray-100" href="/#work_experience">{i18n[lang].work_experience}</Link>
+          <Link className="block px-2 py-2 rounded hover:bg-gray-100" href="/#projects">{i18n[lang].projects}</Link>
+          <Link className="block px-2 py-2 rounded hover:bg-gray-100" href="/#contact">{i18n[lang].contact}</Link>
           <div className="px-2 py-2">
             <button
               onClick={toggleLang}

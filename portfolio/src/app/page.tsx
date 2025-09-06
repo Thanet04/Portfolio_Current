@@ -85,7 +85,7 @@ export default function Home() {
       </div>
 
       {/* About Me Section */}
-      <motion.div
+      <motion.div id="about"
         variants={aboutText}
         initial="hidden"
         whileInView="visible"
@@ -107,7 +107,8 @@ export default function Home() {
       </motion.div>
 
       {/* Work Experience Section */}
-    <motion.div
+    <motion.div 
+      id="work_experience"
       className="px-6 md:px-20 py-16 space-y-10"
       initial="hidden"
       whileInView="visible"
@@ -149,22 +150,22 @@ export default function Home() {
     </motion.div>
 
   {/* Projects Section */}
-    <motion.div>
+    <motion.div id="projects">
       <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">{i18n[lang].projects}</h2>
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 px-6 md:px-20">
 
         {/* Project Card 1 */}
         <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform transition-transform duration-300 hover:-translate-y-2 border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-          <a href="#" className="block w-full h-48 relative">
+          <a href="https://holidays-calendar-ten.vercel.app/" className="block w-full h-48 relative">
             <Image className="w-full h-48 object-cover" src={calendar_holiday} alt="Calendar Holiday" priority/>
           </a>
           <div className="p-6">
-            <a href="#">
+            <a href="https://holidays-calendar-ten.vercel.app/">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{i18n[lang].calendar_title}</h5>
             </a>
             <p className="mb-4 text-sm text-gray-600 dark:text-gray-300">{i18n[lang].calendar_desc}</p>
-            <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600">
+            <a href="https://holidays-calendar-ten.vercel.app/" className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600">
               {i18n[lang].view_project}
             </a>
           </div>
@@ -172,15 +173,15 @@ export default function Home() {
 
         {/* Project Card 2 */}
         <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform transition-transform duration-300 hover:-translate-y-2 border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-          <a href="#" className="block w-full h-48 relative">
+          <a href="https://world-rates.vercel.app/" className="block w-full h-48 relative">
             <Image className="w-full h-48 object-cover" src={word_rates} alt="Word Rates" priority/>
           </a>
           <div className="p-6">
-            <a href="#">
+            <a href="https://world-rates.vercel.app/">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{i18n[lang].wordrates_title}</h5>
             </a>
             <p className="mb-4 text-sm text-gray-600 dark:text-gray-300">{i18n[lang].wordrates_desc}</p>
-            <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600">
+            <a href="https://world-rates.vercel.app/" className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600">
               {i18n[lang].view_project}
             </a>
           </div>
@@ -188,15 +189,15 @@ export default function Home() {
 
         {/* Project Card 3 */}
         <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform transition-transform duration-300 hover:-translate-y-2 border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-          <a href="#" className="block w-full h-48 relative">
+          <a href="https://weather-dashboard-theta-ruby.vercel.app/" className="block w-full h-48 relative">
             <Image className="w-full h-48 object-cover" src={waether_dashboard} alt="Weather Dashboard" priority/>
           </a>
           <div className="p-6">
-            <a href="#">
+            <a href="https://weather-dashboard-theta-ruby.vercel.app/">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{i18n[lang].weather_title}</h5>
             </a>
             <p className="mb-4 text-sm text-gray-600 dark:text-gray-300">{i18n[lang].weather_desc}</p>
-            <a href="#" className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600">
+            <a href="https://weather-dashboard-theta-ruby.vercel.app/" className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600">
               {i18n[lang].view_project}
             </a>
           </div>
@@ -206,6 +207,7 @@ export default function Home() {
     </motion.div>     
 
     <motion.div
+      id="contact"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
