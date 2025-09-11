@@ -50,9 +50,9 @@ export const i18n = {
       "A weather dashboard built with React.js and Tailwind CSS using OpenWeather API. Users can search by province to view current weather, see a React-Leaflet map and charts for humidity, temperature, and wind speed.",
     },
     th: {
-    title: "ผลงานของฉัน",
+    title: "ผลงานของผม",
     home: "หน้าแรก",
-    about: "เกี่ยวกับฉัน",
+    about: "เกี่ยวกับผม",
     contact: "ติดต่อ",
     contact_me: "ติดต่อเรา",
     skills: "ความสามารถ",
@@ -68,12 +68,12 @@ export const i18n = {
     send: "ส่ง",
     back: "กลับ",
     view_project: "ดูผลงาน",
-    hero_title: "ยินดีต้อนรับสู่ผลงานของฉัน",
+    hero_title: "ยินดีต้อนรับสู่ผลงานของผม",
     hero_subtitle: "Full Stack Developer",
     about_p1:
-      "ฉันเป็นนิสิตชั้นปีสุดท้าย สาขาวิศวกรรมซอฟต์แวร์ มหาวิทยาลัยพะเยา กำลังจะสำเร็จการศึกษา เรียนรู้และมีประสบการณ์ด้าน frontend และ backend จากการฝึกงานที่ SCM S Technologies และ WeWebPlus โดยเคยใช้งาน Angular, React, PHP, Java, Spring Boot, MySQL, Bootstrap Tailwind  และ SASS",
+      "ผมเป็นนิสิตชั้นปีสุดท้าย สาขาวิศวกรรมซอฟต์แวร์ มหาวิทยาลัยพะเยา กำลังจะสำเร็จการศึกษา เรียนรู้และมีประสบการณ์ด้าน frontend และ backend จากการฝึกงานที่ SCM S Technologies และ WeWebPlus โดยเคยใช้งาน Angular, React, PHP, Java, Spring Boot, MySQL, Bootstrap Tailwind  และ SASS",
     about_p2:
-      "ขณะนี้ฉันกำลังมองหาตำแหน่งงานเต็มเวลาเพื่อใช้ทักษะทางเทคนิค ทักษะการแก้ปัญหา และความสามารถในการทำงานร่วมกันในการส่งมอบซอฟต์แวร์ที่มีประสิทธิภาพ พร้อมทั้งพัฒนาตนเองต่อไป",
+      "ขณะนี้ผมกำลังมองหาตำแหน่งงานเต็มเวลาเพื่อใช้ทักษะทางเทคนิค ทักษะการแก้ปัญหา และความสามารถในการทำงานร่วมกันในการส่งมอบซอฟต์แวร์ที่มีประสิทธิภาพ พร้อมทั้งพัฒนาตนเองต่อไป",
     scm_role: "Full Stack Developer",
     scm_bullets: [
       "พัฒนาฟีเจอร์ frontend และ backend สำหรับแอปพลิเคชันองค์กร",
