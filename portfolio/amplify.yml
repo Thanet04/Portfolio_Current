@@ -4,7 +4,7 @@ frontend:
     preBuild:
       commands:
         - cd portfolio
-        - npm install
+        - npm ci
     build:
       commands:
         - npm run build
