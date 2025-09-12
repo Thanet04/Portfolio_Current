@@ -65,7 +65,7 @@ export default function Home() {
           variants={container}
           initial="hidden"
           animate="visible"
-          className="flex flex-wrap justify-center space-x-3 text-5xl md:text-6xl font-extrabold text-gray-900 drop-shadow-lg"
+          className="flex flex-wrap justify-center gap-x-3 text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900"
         >
           {sentence.map((word, index) => (
             <motion.span key={index} variants={item} className="inline-block">
@@ -78,7 +78,7 @@ export default function Home() {
           variants={subtitle}
           initial="hidden"
           animate="visible"
-          className="text-xl md:text-2xl font-semibold text-gray-700"
+          className="text-lg md:text-2xl font-medium text-gray-700/90 leading-relaxed"
         >
           {i18n[lang].hero_subtitle}
         </motion.div>
@@ -101,8 +101,7 @@ export default function Home() {
           priority
         />
         <div className="text-gray-800 text-justify md:text-left space-y-4 max-w-3xl">
-          <p>{i18n[lang].about_p1}</p>
-          <p>{i18n[lang].about_p2}</p>
+          <p className="text-[17px] leading-8">{i18n[lang].about_p1}</p>
         </div>
       </motion.div>
 
@@ -114,7 +113,7 @@ export default function Home() {
       whileInView="visible"
       viewport={{ once: true }}
     >
-      <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center md:text-left">
+      <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-gray-900 mb-8 text-center md:text-left">
         {i18n[lang].work_experience}
       </h2>
 
@@ -123,11 +122,25 @@ export default function Home() {
         variants={aboutText}
         className="bg-white rounded-2xl shadow-lg p-6 md:p-10 space-y-3"
       >
-        <h3 className="text-xl font-semibold text-blue-700">SCM S Technologies</h3>
+        <h3 className="text-xl md:text-2xl font-semibold tracking-tight text-blue-700">SCM S Technologies</h3>
         <p className="text-gray-500 text-sm">1 November 2024 - 19 September 2025</p>
         <p className="font-medium text-gray-800">{i18n[lang].scm_role}</p>
         <ul className="list-disc list-inside text-gray-700 space-y-1 mt-2">
           {i18n[lang].scm_bullets.map((b, idx) => (
+            <li key={idx}>{b}</li>
+          ))}
+        </ul>
+        
+        <p className="font-medium text-lg">{i18n[lang].detail}</p>
+        <p className="font-medium text-lg">Front-End</p>
+        <ul className="list-disc list-inside text-gray-700 space-y-1 mt-2">
+          {i18n[lang].crm_detailFE.map((b, idx) => (
+            <li key={idx}>{b}</li>
+          ))}
+        </ul>
+        <p className="font-medium text-lg">Back-End</p>
+        <ul className="list-disc list-inside text-gray-700 space-y-1 mt-2">
+          {i18n[lang].crm_detailBE.map((b, idx) => (
             <li key={idx}>{b}</li>
           ))}
         </ul>
@@ -138,7 +151,7 @@ export default function Home() {
         variants={aboutText}
         className="bg-white rounded-2xl shadow-lg p-6 md:p-10 space-y-3"
       >
-        <h3 className="text-xl font-semibold text-blue-700">WeWebPlus</h3>
+        <h3 className="text-xl md:text-2xl font-semibold tracking-tight text-blue-700">WeWebPlus</h3>
         <p className="text-gray-500 text-sm">1 April 2024 - 31 May 2024</p>
         <p className="font-medium text-gray-800">{i18n[lang].weweb_role}</p>
         <ul className="list-disc list-inside text-gray-700 space-y-1 mt-2">

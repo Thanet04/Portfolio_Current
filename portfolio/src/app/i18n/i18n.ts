@@ -1,5 +1,5 @@
 export const i18n = {
-    en: {
+  en: {
     title: "Welcome to My Portfolio",
     home: "Home",
     about: "About",
@@ -20,21 +20,33 @@ export const i18n = {
     view_project: "View Project",
     hero_title: "Welcome to My Portfolio",
     hero_subtitle: "Full Stack Developer",
+    detail: "More details",
     about_p1:
-      "I am a final-year Software Engineering student at the University of Phayao, expecting to graduate soon. With practical experience in both frontend and backend development through internships at SCM S Technologies and WeWebPlus, I have worked with technologies such as Angular, React, PHP, Java, Spring Boot, MySQL, Bootstrap, Tailwind and SASS.",
-    about_p2:
-      "I am now seeking a full-time position where I can contribute my technical expertise, problem-solving skills, and collaborative mindset to deliver impactful software solutions while continuing to grow as a professional developer.",
-    scm_role: "Full Stack Developer",
+      "I am a final-year Software Engineering student at the University of Phayao, expecting to graduate soon. With practical experience in both frontend and backend development through internships at SCM S Technologies and WeWebPlus, I have worked with technologies such as Angular, React, PHP, Spring Boot, MySQL, Bootstrap, Tailwind, and SASS. I am now seeking a full-time position where I can contribute my technical expertise, problem-solving skills, and collaborative mindset to deliver impactful software solutions while continuing to grow as a professional developer.",
+    scm_role: "Full-Stack Developer – Work Permit & CRM System",
     scm_bullets: [
-      "Developed frontend and backend features for enterprise applications.",
-      "Built responsive user interfaces using Angular.",
-      "Implemented backend services with Spring Boot and MySQL database integration.",
-      "Worked on CRM and Work Permit Management systems.",
-      "Collaborated with team members to fix issues, debug errors, and enhance system performance.",
+      "Developed and maintained both Front-end (Angular, Tailwind CSS) and Back-end (Java Spring Boot)",
+      "Designed and implemented UI with Responsive Design for multi-device compatibility",
+      "Built and managed RESTful APIs, writing SQL Queries for efficient data management in MySQL",
+      "Developed new features based on user and business requirements, as well as performing Issue/Bug Fixing",
+      "Collaborated with the team to improve system performance and ensure system quality before production deployment (Testing & Deployment)",
+    ],
+    crm_detailFE:[
+      "Designed user-friendly UX/UI",
+      "Implemented CRUD (Create, Read, Update, Delete) operations",
+      "Features include Search, Sorting, Filtering, Edit, Delete, Status, and Pagination",
+      "Developed work permit creation system and implemented FullCalendar to display events and holidays",
+      "Created Charts using ApexCharts for graphical data visualization",
+    ],
+    crm_detailBE:[
+      "Developed with Java Spring Boot connected to MySQL",
+      "Used Controllers to handle HTTP Methods such as GET, GET BY ID, POST, PUT, DELETE",
+      "Utilized Beans to separate concerns and manage Dependencies",
+      "Implemented Repositories with Custom SQL for CRUD operations and JOIN tables",
     ],
     weweb_role: "Front-End Developer",
     weweb_bullets: [
-      "Developed frontend features using PHP and HTML for web applications.",
+      "Developed FrontEnd features using PHP and HTML for web applications.",
       "Implemented responsive design to ensure compatibility across all device sizes.",
       "Utilized Bootstrap and SASS to enhance styling, consistency, and maintainability of user interfaces.",
       "Collaborated with team members to deliver high-quality and user-friendly web solutions.",
@@ -48,8 +60,8 @@ export const i18n = {
     weather_title: "Weather Dashboard",
     weather_desc:
       "A weather dashboard built with React.js and Tailwind CSS using OpenWeather API. Users can search by province to view current weather, see a React-Leaflet map and charts for humidity, temperature, and wind speed.",
-    },
-    th: {
+  },
+  th: {
     title: "ผลงานของผม",
     home: "หน้าแรก",
     about: "เกี่ยวกับผม",
@@ -70,21 +82,33 @@ export const i18n = {
     view_project: "ดูผลงาน",
     hero_title: "ยินดีต้อนรับสู่ผลงานของผม",
     hero_subtitle: "Full Stack Developer",
+    detail: "รายละเอียดเพิ่มเติม",
     about_p1:
-      "ผมเป็นนิสิตชั้นปีสุดท้าย สาขาวิศวกรรมซอฟต์แวร์ มหาวิทยาลัยพะเยา กำลังจะสำเร็จการศึกษา เรียนรู้และมีประสบการณ์ด้าน frontend และ backend จากการฝึกงานที่ SCM S Technologies และ WeWebPlus โดยเคยใช้งาน Angular, React, PHP, Java, Spring Boot, MySQL, Bootstrap Tailwind  และ SASS",
-    about_p2:
-      "ขณะนี้ผมกำลังมองหาตำแหน่งงานเต็มเวลาเพื่อใช้ทักษะทางเทคนิค ทักษะการแก้ปัญหา และความสามารถในการทำงานร่วมกันในการส่งมอบซอฟต์แวร์ที่มีประสิทธิภาพ พร้อมทั้งพัฒนาตนเองต่อไป",
-    scm_role: "Full Stack Developer",
+      "ผมเป็นนิสิตชั้นปีสุดท้าย สาขาวิศวกรรมซอฟต์แวร์ มหาวิทยาลัยพะเยา กำลังจะสำเร็จการศึกษา มีประสบการณ์ด้านการพัฒนา Frontend และ Backend จากการฝึกงานที่ SCM S Technologies และ WeWebPlus เคยใช้งานเทคโนโลยี เช่น Angular, React, PHP, Spring Boot, MySQL, Bootstrap, Tailwind และ SASS ขณะนี้ผมกำลังมองหาตำแหน่งงานเต็มเวลาเพื่อใช้ทักษะทางเทคนิค ความสามารถในการแก้ปัญหา และทักษะการทำงานร่วมกับผู้อื่นในการพัฒนาซอฟต์แวร์ที่มีประสิทธิภาพ พร้อมทั้งเติบโตและพัฒนาตนเองในฐานะนักพัฒนามืออาชีพ",
+    scm_role: "Full-Stack Developer – Work Permit & CRM System",
     scm_bullets: [
-      "พัฒนาฟีเจอร์ frontend และ backend สำหรับแอปพลิเคชันองค์กร",
-      "สร้างส่วนติดต่อผู้ใช้ที่ตอบสนองด้วย Angular",
-      "พัฒนาบริการ backend ด้วย Spring Boot และเชื่อมต่อฐานข้อมูล MySQL",
-      "ทำงานเกี่ยวกับระบบ CRM และระบบจัดการใบอนุญาตการทำงาน",
-      "ร่วมมือกับทีมเพื่อแก้ไขข้อบกพร่องและปรับปรุงประสิทธิภาพของระบบ",
+      "พัฒนาและดูแลทั้งฝั่ง Front-end (Angular, Tailwind CSS) และ Back-end (Java Spring Boot)",
+      "ออกแบบและพัฒนา UI ให้รองรับ Responsive Design สำหรับการใช้งานบนทุกอุปกรณ์",
+      "สร้างและจัดการ RESTful API เขียน SQL Query เพื่อเข้าถึงและจัดการข้อมูลใน MySQL อย่างมีประสิทธิภาพ",
+      "พัฒนาฟีเจอร์ใหม่ตามความต้องการของผู้ใช้งานและธุรกิจ พร้อมแก้ไขปัญหา (Issue/Bug Fixing)",
+      "ทำงานร่วมกับทีมเพื่อปรับปรุงประสิทธิภาพระบบ และดูแลคุณภาพของระบบก่อนขึ้นใช้งานจริง (Testing & Deployment)",
+    ],
+    crm_detailFE:[
+      "ออกแบบ UX/UI ให้ใช้งานง่าย",
+      "มีฟังก์ชัน CRUD (Create, Read, Update, Delete)",
+      "ฟังก์ชัน ค้นหา (Search), จัดเรียงข้อมูล (Sort), ฟังก์ชันการกรอง (Filters), แก้ไขข้อมูล (Edit), ลบข้อมูล (Delete), สถานะ (Status) และ แบ่งหน้า (Pagination)",
+      "พัฒนาระบบสร้างใบงาน และทำ FullCalendar เพื่อแสดงกิจกรรมและวันหยุด",
+      "ทำ Charts โดยใช้ ApexCharts เพื่อแสดงผลเป็นกราฟ",
+    ],
+    crm_detailBE:[
+      "ใช้ Java Spring Boot เชื่อมต่อกับ MySQL",
+      "ใช้ Controller จัดการ HTTP Methods เช่น GET, GET BY ID, POST, PUT, DELETE",
+      "ใช้ Bean เพื่อแยกการทำงานและจัดการ dependency",
+      "ใช้ Repository สำหรับเขียน SQL แบบ Custom เพื่อ CRUD และเชื่อมตารางด้วยการ JOIN Table",
     ],
     weweb_role: "Front-End Developer",
     weweb_bullets: [
-      "พัฒนาฟีเจอร์ frontend ด้วย PHP และ HTML สำหรับเว็บแอปพลิเคชัน",
+      "พัฒนาฟีเจอร์ FrontEnd ด้วย PHP และ HTML สำหรับเว็บแอปพลิเคชัน",
       "ปรับแต่งการแสดงผลให้รองรับทุกขนาดอุปกรณ์",
       "ใช้ Bootstrap และ SASS เพื่อปรับปรุงสไตล์และความสามารถในการบำรุงรักษา",
       "ทำงานร่วมกับทีมเพื่อส่งมอบโซลูชันที่ใช้งานง่ายและมีคุณภาพ",
