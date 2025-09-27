@@ -60,6 +60,8 @@ export const i18n = {
     weather_title: "Weather Dashboard",
     weather_desc:
       "A weather dashboard built with React.js and Tailwind CSS using OpenWeather API. Users can search by province to view current weather, see a React-Leaflet map and charts for humidity, temperature, and wind speed.",
+    books_title: "Books",
+    books_desc:"User-based Book Management System is a platform where users can log in to manage their own books. They can create, edit, or delete books with information such as title, author, description, price, and image. Users can also manage their personal information, such as changing their password or deleting their account. Technologies used: Frontend: Nuxt 3 and Tailwind CSS for modern and responsive UI development Backend: Spring Boot for API development, JPA for database management, JWT for authentication, and Cloudinary for image management"
   },
   th: {
     title: "ผลงานของผม",
@@ -122,5 +124,8 @@ export const i18n = {
     weather_title: "แดชบอร์ดสภาพอากาศ",
     weather_desc:
       "เว็บแอป Weather Dashboard พัฒนาด้วย React.js และ Tailwind CSS ดึงข้อมูลจาก OpenWeather API ผู้ใช้ค้นหาจังหวัดเพื่อดูสภาพอากาศ มีแผนที่ด้วย React-Leaflet และกราฟข้อมูล เช่น ความชื้น อุณหภูมิ และความเร็วลม",
+    books_title: "Books",
+    books_desc: "ระบบจัดการหนังสือแบบ User-based เป็นแพลตฟอร์มที่ผู้ใช้สามารถล็อกอินเพื่อจัดการหนังสือของตัวเอง โดยสามารถสร้าง, แก้ไข หรือ ลบหนังสือที่มีข้อมูลเช่น ชื่อ, ผู้เขียน, รายละเอียด, ราคา และรูปภาพ ผู้ใช้ยังสามารถจัดการข้อมูลส่วนตัว เช่น เปลี่ยนรหัสผ่านหรือลบบัญชีของตัวเองได้ เทคโนโลยีที่ใช้: Frontend: Nuxt 3 และ Tailwind CSS สำหรับการพัฒนา UI ที่ทันสมัยและ responsive Backend: Spring Boot สำหรับ API, JPA สำหรับการจัดการฐานข้อมูล, JWT สำหรับการยืนยันตัวตน และ Cloudinary สำหรับการจัดการรูปภาพ"
+    
   },
 };
