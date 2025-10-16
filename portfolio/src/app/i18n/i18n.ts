@@ -22,7 +22,7 @@ export const i18n = {
     hero_subtitle: "Full Stack Developer",
     detail: "More details",
     about_p1:
-      "I am a final-year Software Engineering student at the University of Phayao, expecting to graduate soon. With practical experience in both frontend and backend development through internships at SCM S Technologies and WeWebPlus, I have worked with technologies such as Angular, React, PHP, Spring Boot, MySQL, Bootstrap, Tailwind, and SASS. I am now seeking a full-time position where I can contribute my technical expertise, problem-solving skills, and collaborative mindset to deliver impactful software solutions while continuing to grow as a professional developer.",
+      "I am a Software Engineering graduate from the University of Phayao. With hands-on experience in both frontend and backend development through internships at SCM S Technologies and WeWebPlus, I have worked with technologies such as Angular, React, PHP, Spring Boot, MySQL, Bootstrap, and SASS. I am now seeking a full-time position where I can contribute my technical expertise, problem-solving skills, and collaborative mindset to deliver impactful software solutions while continuing to grow as a professional developer.",
     scm_role: "Full-Stack Developer – Work Permit & CRM System",
     scm_bullets: [
       "Developed and maintained both Front-end (Angular, Tailwind CSS) and Back-end (Java Spring Boot)",
@@ -86,7 +86,7 @@ export const i18n = {
     hero_subtitle: "Full Stack Developer",
     detail: "รายละเอียดเพิ่มเติม",
     about_p1:
-      "ผมเป็นนิสิตชั้นปีสุดท้าย สาขาวิศวกรรมซอฟต์แวร์ มหาวิทยาลัยพะเยา กำลังจะสำเร็จการศึกษา มีประสบการณ์ด้านการพัฒนา Frontend และ Backend จากการฝึกงานที่ SCM S Technologies และ WeWebPlus เคยใช้งานเทคโนโลยี เช่น Angular, React, PHP, Spring Boot, MySQL, Bootstrap, Tailwind และ SASS ขณะนี้ผมกำลังมองหาตำแหน่งงานเต็มเวลาเพื่อใช้ทักษะทางเทคนิค ความสามารถในการแก้ปัญหา และทักษะการทำงานร่วมกับผู้อื่นในการพัฒนาซอฟต์แวร์ที่มีประสิทธิภาพ พร้อมทั้งเติบโตและพัฒนาตนเองในฐานะนักพัฒนามืออาชีพ",
+      "ผมจบการศึกษาสาขาวิศวกรรมซอฟต์แวร์ มหาวิทยาลัยพะเยา มีประสบการณ์ด้านการพัฒนา Frontend และ Backend จากการฝึกงานที่ SCM S Technologies และ WeWebPlus เคยใช้งานเทคโนโลยี เช่น Angular, React, PHP, Spring Boot, MySQL, Bootstrap, Tailwind และ SASS ขณะนี้ผมกำลังมองหาตำแหน่งงานเต็มเวลาเพื่อใช้ทักษะทางเทคนิค ความสามารถในการแก้ปัญหา และทักษะการทำงานร่วมกับผู้อื่นในการพัฒนาซอฟต์แวร์ที่มีประสิทธิภาพ พร้อมทั้งเติบโตและพัฒนาตนเองในฐานะนักพัฒนามืออาชีพ",
     scm_role: "Full-Stack Developer – Work Permit & CRM System",
     scm_bullets: [
       "พัฒนาและดูแลทั้งฝั่ง Front-end (Angular, Tailwind CSS) และ Back-end (Java Spring Boot)",
