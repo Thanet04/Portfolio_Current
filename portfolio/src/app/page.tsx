@@ -219,15 +219,15 @@ export default function Home() {
 
         {/* Project Card 4 */}
         <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform transition-transform duration-300 hover:-translate-y-2 border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-          <a href="https://master.dg7sjl2a0ocyf.amplifyapp.com/" className="block w-full h-48 relative">
+          <a href="https://nuxtjs-ecru-psi-83.vercel.app/" className="block w-full h-48 relative">
             <Image className="w-full h-48 object-cover" src={Books} alt="Books image" priority/>
           </a>
           <div className="p-6">
-            <a href="https://master.dg7sjl2a0ocyf.amplifyapp.com/">
+            <a href="https://nuxtjs-ecru-psi-83.vercel.app/">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{i18n[lang].books_title}</h5>
             </a>
             <p className="mb-4 text-sm text-gray-600 dark:text-gray-300">{i18n[lang].books_desc}</p>
-            <a href="https://master.dg7sjl2a0ocyf.amplifyapp.com/" className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600">
+            <a href="https://nuxtjs-ecru-psi-83.vercel.app/" className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600">
               {i18n[lang].view_project}
             </a>
           </div>
